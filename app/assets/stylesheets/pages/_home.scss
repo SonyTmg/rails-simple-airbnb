@@ -1,0 +1,21 @@
+// Specific CSS for your home-page
+.card {
+  border-radius: 5px;
+  box-shadow: 2px 2px 12px #cccccc;
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+      color: rgb(133, 133, 201);
+    }
+  }
+
+  .card-btn {
+    background-color: rgb(235, 64, 64);
+    border-radius: 5px;
+    padding: 8px 10px;
+    color: white;
+  }
+}
